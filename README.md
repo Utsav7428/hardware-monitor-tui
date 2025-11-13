@@ -20,7 +20,12 @@
 
 ----
 
+<img width="1178" height="697" alt="Screenshot (168)" src="https://github.com/user-attachments/assets/c34bef35-66d6-4ed3-b9c5-b0b170da246a" />
+
+---
+
 ## Technical Stack
+
 
   This project leverages several powerful libraries from the Rust ecosystem:
   
