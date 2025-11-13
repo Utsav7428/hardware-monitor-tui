@@ -1,0 +1,19 @@
+[package]
+name = "system_monitor"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# For the TUI framework
+ratatui = "0.26"
+crossterm = "0.27"
+
+# For system information (CPU, Mem, Network)
+# Make sure to include the "network" feature
+sysinfo = { version = "0.30.13" }
+
+# For the asynchronous runtime (tasks, channels, timers)
+tokio = { version = "1", features = ["full"] }
+
+# For easy error handling (Result type)
+anyhow = "1.0"
